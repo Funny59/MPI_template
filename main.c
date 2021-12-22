@@ -7,7 +7,7 @@ int main (int argc, char **argv) {
 	MPI_Comm_rank (MPI_COMM_WORLD, &myrank); 
 	MPI_Comm_size(MPI_COMM_WORLD, &size); 
 	
-	printf("Hello form process №%d", myrank);
+	printf("Hello form process №%d\n", myrank);
 	
 	MPI_Finalize(); 
 }

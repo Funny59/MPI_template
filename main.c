@@ -10,4 +10,5 @@ int main (int argc, char **argv) {
 	printf("Hello form process №%d\n", myrank);
 	
 	MPI_Finalize(); 
+	return 0;
 }

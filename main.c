@@ -1,5 +1,6 @@
 #include "mpi.h" 
 #include <stdlib.h> 
+#include <stdio.h>
 int myrank, size;
 
 int main (int argc, char **argv) {  
